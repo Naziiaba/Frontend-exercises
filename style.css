@@ -1,0 +1,96 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #e5ecf3; width: 400px;}
+
+
+/* NAVIGATION STYLE */
+.navbar {
+    width: 100%;
+    background-color: rgb(27, 87, 177);
+    overflow: auto;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: 	rgb(54, 54, 61);
+}
+.container1{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(224, 226, 226);
+    margin: 20px 0;
+}
+p {
+    font-size: large;
+    text-align: center;
+    
+}
+
+/* FORM style */
+ form {
+     background-color: #4585c5;
+     margin-top: 50px;
+
+ }
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(54, 54, 61);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.container {
+  padding: 16px;
+  margin: 16px;
+}
+/* Table style */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    }
+
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    }
+
+.modal-container button {
+    width: 120px;
+    margin: 20px 100px;
+}
